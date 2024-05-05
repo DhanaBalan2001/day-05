@@ -3,7 +3,9 @@ var resumeData = {
     age: 23,
     email: "dana@gmail.com",
     phone: "1234567890",
-    
+    Qualification: "B.E.ECE"
+    Project: "Hackathon"
+    Language : "Tamil,English"
   };
   // for loop
   for (var key in resumeData) {
@@ -20,3 +22,12 @@ var resumeData = {
       }
     }
   }
+
+  //for.of
+  for (var element of Object.keys(resumedata)) {
+    console.log(resumedata[element]);
+}
+//for-Each
+for (const [key, value] of Object.entries(resumedata)) {
+  console.log(`${key}: ${value}`);
+}
