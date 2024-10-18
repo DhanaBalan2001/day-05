@@ -1,8 +1,8 @@
 Resume Data Iteration Project
 
-   - This project demonstrates how to dynamically display resume data on a webpage using JavaScript loops.
+   -  This project demonstrates how to dynamically display resume data on a webpage using JavaScript loops.
    
-   - It iterates over an object containing personal and professional information, showing how to use different types of loops like for, for...in, for...of, and forEach.
+   -  It iterates over an object containing personal and professional information, showing how to use different types of loops like for, for...in, for...of, and forEach.
 
 
 1. index.html :
